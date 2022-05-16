@@ -1,3 +1,3 @@
 # kakaoTalk Clone Coding 2022
 
-CSS got so much better!
+HTML and CSS got so much better!
