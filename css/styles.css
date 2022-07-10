@@ -13,6 +13,10 @@
 /* Screens */
 @import"screens/login.css";
 @import"screens/friends.css";
+@import"screens/shopping.css";
+@import"screens/view.css";
+@import"screens/more.css";
+
 
 body{
     font-family: 'IBM Plex Sans KR', sans-serif;

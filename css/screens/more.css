@@ -1,0 +1,37 @@
+.kakao-wallet{
+    margin-top: -15px;
+    background-color: var(--yellow);
+}
+.kakao-wallet__header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: var(--horiziontal-space);
+}
+.kakao-wallet__header__title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.kakao-wallet__header__icons{
+    margin-left: 20px;
+}
+
+.more-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+
+.more-icons__icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-icons__icons i {
+    font-size: 35px;
+}
+
+.more-icons__icons span{
+    margin-top: 15px;
+}
