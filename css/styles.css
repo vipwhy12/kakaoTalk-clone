@@ -9,6 +9,9 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
 
 /* Screens */
 @import"screens/login.css";
@@ -16,7 +19,8 @@
 @import"screens/shopping.css";
 @import"screens/view.css";
 @import"screens/more.css";
-
+@import"screens/settings.css";
+@import"screens/chat.css";
 
 body{
     font-family: 'IBM Plex Sans KR', sans-serif;

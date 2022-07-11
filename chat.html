@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Settings - Kokoa Clone</title>
+    </head>
+
+    <body class="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>7:11</span>
+                <i class="fas fa-location-arrow"></i>
+            </div>
+            <div class="status-bar__column">
+                <i class="fa fa-signal" aria-hidden="true"></i>
+                <span> LTE </span>
+                <i class="fa fa-battery-empty" aria-hidden="true"></i>
+            </div>
+        </div>
+    
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+                </a>
+            </div> 
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">니꼬</h1>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fas fa-search fa-2x"></i></span>
+                <span><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+            </div>
+        </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="profile.png">
+            <div class="message-row__content">
+                <span class="message__author">Nicolas</span>
+                <div class="massage__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi nice to meet you!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply"> 
+        <div class="reply__column">
+            <i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message.."/>
+            <i class="fa fa-smile-o fa-lg" aria-hidden="true"></i>
+            <button><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big :(</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
+    </body>
+</html>
